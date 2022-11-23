@@ -1,0 +1,5 @@
+import streamlit as st
+
+st.image("image.png", caption="Aquí hay una imagen", width=300)
+st.audio("audio.mp3", format="audio/mp3", start_time=0)
+st.video("video.mp4")
